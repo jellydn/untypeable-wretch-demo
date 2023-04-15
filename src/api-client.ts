@@ -24,6 +24,7 @@ const BASE_URL = "https://jsonplaceholder.typicode.com";
 
 const externalApi = wretch(BASE_URL, { mode: "cors" }).errorType("json");
 
+// TODO: support mutations (POST, PUT, DELETE)
 export const fetcher = createTypeLevelClient<typeof fetcherRouter>(
   async (path, input) => {
     const res = externalApi.get(`${path}?${new URLSearchParams(input)}`);
