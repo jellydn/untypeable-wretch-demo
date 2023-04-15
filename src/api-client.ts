@@ -1,6 +1,7 @@
 import { createTypeLevelClient, initUntypeable } from "untypeable";
 import wretch from "wretch";
 
+// TODO: add runtime type checking with zod
 // Initialize untypeable
 const u = initUntypeable();
 
