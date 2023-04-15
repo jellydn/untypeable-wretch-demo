@@ -5,7 +5,9 @@
 
 ## 🏠 [Homepage](https://github.com/jellydn/next-app-starter)
 
-### ✨ [Demo](https://next-app-starter.vercel.app)
+### ✨ [Demo](https://untypeable-wretch-demo.vercel.app/)
+
+This is a demo project that showcases how to use the Untypeable library with Wretch to make API requests to JsonPlaceholder and display the data on a webpage.
 
 ## Built with
 
