@@ -9,6 +9,8 @@
 
 This is a demo project that showcases how to use the Untypeable library with Wretch to make API requests to JsonPlaceholder and display the data on a webpage.
 
+![https://gyazo.com/af5b27e59765de2c8562d6030b23b2dc.gif](https://gyazo.com/af5b27e59765de2c8562d6030b23b2dc.gif)
+
 ## Built with
 
 - [jellydn/new-web-app: Frontend app generator, built on top vitejs](https://github.com/jellydn/new-web-app)
