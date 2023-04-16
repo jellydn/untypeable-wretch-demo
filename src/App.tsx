@@ -3,8 +3,8 @@ import { signal } from "@preact/signals-react";
 import "./App.css";
 import PostList from "./PostList";
 import UserSearch from "./UserSearch";
-import type { Post } from "./api-client";
-import { fetcher } from "./api-client";
+import { Post } from "./api-client";
+import { fetcher, mutation } from "./api-client";
 
 const posts = signal<Post[]>([]);
 
@@ -20,7 +20,20 @@ function App() {
             posts.value = result;
           }}
         >
-          Call API
+          Fetch Posts
+        </button>
+        <button
+          onClick={() => {
+            mutation("/posts", {
+              userId: Date.now(),
+              title: "Test",
+              body: "Content",
+            })
+              .then(console.log)
+              .catch(console.error);
+          }}
+        >
+          Add new post
         </button>
       </div>
       <div>

@@ -21,15 +21,26 @@ const fetcherRouter = u.router({
     .output<Post[]>(),
 });
 
+const mutationRouter = u.router({
+  "/posts": u.input<Omit<Post, "id">>().output<Post>(),
+});
+
 const BASE_URL = "https://jsonplaceholder.typicode.com";
 
 const externalApi = wretch(BASE_URL, { mode: "cors" }).errorType("json");
 
-// TODO: support mutations (POST, PUT, PATCH, DELETE)
+// TODO: support mutations (PUT, PATCH, DELETE)
 // Possible solution is to define each method as a separate router
 export const fetcher = createTypeLevelClient<typeof fetcherRouter>(
   async (path, input) => {
     const res = externalApi.get(`${path}?${new URLSearchParams(input)}`);
+    return res.json();
+  }
+);
+
+export const mutation = createTypeLevelClient<typeof mutationRouter>(
+  async (path, body) => {
+    const res = externalApi.url(path).post(body);
     return res.json();
   }
 );
