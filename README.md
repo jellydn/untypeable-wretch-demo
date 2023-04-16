@@ -5,11 +5,82 @@
 
 ## 🏠 [Homepage](https://github.com/jellydn/next-app-starter)
 
-### ✨ [Demo](https://untypeable-wretch-demo.vercel.app/)
+### ✨ [Demo](https://untypeable-demo.productsway.com/)
 
-This is a demo project that showcases how to use the Untypeable library with Wretch to make API requests to JsonPlaceholder and display the data on a webpage.
+In this demo project, we demonstrate how to use Untypeable in conjunction with the Wretch library to make API requests to JsonPlaceholder and display the retrieved data on a webpage.
 
 ![https://gyazo.com/af5b27e59765de2c8562d6030b23b2dc.gif](https://gyazo.com/af5b27e59765de2c8562d6030b23b2dc.gif)
+
+## Why Untypeable
+
+> One of the key benefits of Untypeable is that it provides a zero-bundle size option. This means that you can use Untypeable to generate type-safe API clients without adding any additional bundle size to your application. This can help to improve the performance and load times of your application.
+
+```typescript
+import { createTypeLevelClient, initUntypeable } from "untypeable";
+import wretch from "wretch";
+
+const u = initUntypeable();
+
+export type Post = {
+  id: number;
+  title: string;
+  body: string;
+  userId: number;
+};
+
+// Create a router
+const fetcherRouter = u.router({
+  "/posts": u
+    .input<{
+      userId?: number;
+    }>()
+    .output<Post[]>(),
+});
+
+const BASE_URL = "https://jsonplaceholder.typicode.com";
+
+const externalApi = wretch(BASE_URL, { mode: "cors" }).errorType("json");
+
+export const fetcher = createTypeLevelClient<typeof fetcherRouter>(
+  async (path, input) => {
+    const res = externalApi.get(`${path}?${new URLSearchParams(input)}`);
+    return res.json();
+  }
+);
+```
+
+## Why Wretch
+
+Write something like this
+
+```typescript
+wretch("anything")
+  .get()
+  .notFound(error => { /* ... */ })
+  .unauthorized(error => { /* ... */ })
+  .error(418, error => { /* ... */ })
+  .res(response => /* ... */)
+  .catch(error => { /* uncaught errors */ })
+```
+
+instead of
+
+```typescript
+fetch("anything")
+  .then(response => {
+    if(!response.ok) {
+      if(response.status === 404) throw new Error("Not found")
+      else if(response.status === 401) throw new Error("Unauthorized")
+      else if(response.status === 418) throw new Error("I'm a teapot !")
+      else throw new Error("Other error")
+    }
+    else // ...
+  })
+  .then(data => /* ... */)
+  .catch(error => { /* ... */ })
+```
+
+Pretty neat,right? 😍
 
 ## Built with
 
