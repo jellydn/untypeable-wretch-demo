@@ -9,7 +9,7 @@
 
 In this demo project, we demonstrate how to use Untypeable in conjunction with the Wretch library to make API requests to JsonPlaceholder and display the retrieved data on a webpage.
 
-![https://gyazo.com/af5b27e59765de2c8562d6030b23b2dc.gif](https://gyazo.com/af5b27e59765de2c8562d6030b23b2dc.gif)
+![https://gyazo.com/7c47e1e4e0fb1851f737c33d0bb09b6b.gif](https://gyazo.com/7c47e1e4e0fb1851f737c33d0bb09b6b.gif)
 
 ## Why Untypeable
 
