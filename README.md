@@ -51,6 +51,12 @@ export const fetcher = createTypeLevelClient<typeof fetcherRouter>(
 );
 ```
 
+
+
+https://user-images.githubusercontent.com/870029/232274878-0025ba26-240b-4994-9659-ad21927e9a97.mov
+
+
+
 ## Why Wretch
 
 Write something like this
