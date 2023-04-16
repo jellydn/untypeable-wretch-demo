@@ -1,4 +1,5 @@
 import { signal } from "@preact/signals-react";
+import { Toaster, toast } from "sonner";
 
 import "./App.css";
 import PostList from "./PostList";
@@ -16,6 +17,7 @@ function App() {
         <h2>Search Posts By User ID</h2>
         <button
           onClick={async () => {
+            toast("Fetching posts...");
             const result = await fetcher("/posts");
             posts.value = result;
           }}
@@ -26,11 +28,14 @@ function App() {
           onClick={() => {
             mutation("/posts", {
               userId: Date.now(),
-              title: "Test",
-              body: "Content",
+              title: `Test ${Date.now()}`,
+              body: `New post`,
             })
-              .then(console.log)
-              .catch(console.error);
+              .then((result) => {
+                posts.value = [...posts.value, result];
+                toast("Post added");
+              })
+              .catch((error) => toast(error.message));
           }}
         >
           Add new post
@@ -40,6 +45,7 @@ function App() {
         <h2>Search Users By ID</h2>
         <UserSearch
           onSubmit={async (userId) => {
+            toast("Fetching posts for user...");
             const result = await fetcher("/posts", {
               userId: userId ? parseInt(userId) : undefined,
             });
@@ -71,6 +77,7 @@ function App() {
           </a>
         </p>
       </div>
+      <Toaster />
     </div>
   );
 }
