@@ -87,6 +87,7 @@ Pretty neat,right? 😍
 - [jellydn/new-web-app: Frontend app generator, built on top vitejs](https://github.com/jellydn/new-web-app)
 - [preactjs/signals: Manage state with style in every framework](https://github.com/preactjs/signals)
 - [elbywan/wretch: A tiny wrapper built around fetch with an intuitive syntax.](https://github.com/elbywan/wretch)
+- [emilkowalski/sonner: An opinionated toast component for React.](https://github.com/emilkowalski/sonner)
 - [total-typescript/untypeable: Get type-safe access to any API, with a zero-bundle size option.](https://github.com/total-typescript/untypeable)
 - [total-typescript/ts-reset: A 'CSS reset' for TypeScript, improving types for common JavaScript API's](https://github.com/total-typescript/ts-reset)
 
