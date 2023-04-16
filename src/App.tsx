@@ -77,7 +77,7 @@ function App() {
           </a>
         </p>
       </div>
-      <Toaster />
+      <Toaster position="top-right" />
     </div>
   );
 }
