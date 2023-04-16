@@ -7,6 +7,8 @@
 
 ### ✨ [Demo](https://untypeable-demo.productsway.com/)
 
+[![IT Man - Tip #35 - How to use #untypeable generate type-safe API clients [Vietnamese]](https://i.ytimg.com/vi/spfXOEeZpR0/hqdefault.jpg)](https://www.youtube.com/watch?v=spfXOEeZpR0)
+
 In this demo project, we demonstrate how to use Untypeable in conjunction with the Wretch library to make API requests to JsonPlaceholder and display the retrieved data on a webpage.
 
 ![https://gyazo.com/7c47e1e4e0fb1851f737c33d0bb09b6b.gif](https://gyazo.com/7c47e1e4e0fb1851f737c33d0bb09b6b.gif)
