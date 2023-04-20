@@ -14,8 +14,8 @@ dependencies:
     specifier: 18.2.0
     version: 18.2.0(react@18.2.0)
   sonner:
-    specifier: 0.3.1
-    version: 0.3.1(react-dom@18.2.0)(react@18.2.0)
+    specifier: 0.3.2
+    version: 0.3.2(react-dom@18.2.0)(react@18.2.0)
   untypeable:
     specifier: 0.2.1
     version: 0.2.1
@@ -37,8 +37,8 @@ devDependencies:
     specifier: 18.0.11
     version: 18.0.11
   '@vitejs/plugin-react':
-    specifier: 4.0.0-beta.1
-    version: 4.0.0-beta.1(vite@4.3.0-beta.8)
+    specifier: 4.0.0
+    version: 4.0.0(vite@4.3.1)
   prettier:
     specifier: 2.8.7
     version: 2.8.7
@@ -46,8 +46,8 @@ devDependencies:
     specifier: 5.0.4
     version: 5.0.4
   vite:
-    specifier: 4.3.0-beta.8
-    version: 4.3.0-beta.8
+    specifier: 4.3.1
+    version: 4.3.1
 
 packages:
 
@@ -606,8 +606,8 @@ packages:
     resolution: {integrity: sha512-5cJ8CB4yAx7BH1oMvdU0Jh9lrEXyPkar6F9G/ERswkCuvP4KQZfZkSjcMbAICCpQTN4OuZn8tz0HiKv9TGZgrQ==}
     dev: true
 
-  /@vitejs/plugin-react@4.0.0-beta.1(vite@4.3.0-beta.8):
-    resolution: {integrity: sha512-gEZYZ2iv8cyx9QRmEijCXrd/9OE+icYcZD5d1ThuqmePtIj2R6wMsxQXcf2CAJWIh4SLy1JfDVt2v+8E2loKmg==}
+  /@vitejs/plugin-react@4.0.0(vite@4.3.1):
+    resolution: {integrity: sha512-HX0XzMjL3hhOYm+0s95pb0Z7F8O81G7joUHgfDd/9J/ZZf5k4xX6QAMFkKsHFxaHlf6X7GD7+XuaZ66ULiJuhQ==}
     engines: {node: ^14.18.0 || >=16.0.0}
     peerDependencies:
       vite: ^4.2.0
@@ -615,9 +615,8 @@ packages:
       '@babel/core': 7.21.4
       '@babel/plugin-transform-react-jsx-self': 7.21.0(@babel/core@7.21.4)
       '@babel/plugin-transform-react-jsx-source': 7.19.6(@babel/core@7.21.4)
-      magic-string: 0.30.0
       react-refresh: 0.14.0
-      vite: 4.3.0-beta.8
+      vite: 4.3.1
     transitivePeerDependencies:
       - supports-color
     dev: true
@@ -786,13 +785,6 @@ packages:
       yallist: 3.1.1
     dev: true
 
-  /magic-string@0.30.0:
-    resolution: {integrity: sha512-LA+31JYDJLs82r2ScLrlz1GjSgu66ZV518eyWT+S8VhyQn/JL0u9MeBOvQMGYiPk1DBiSN9DDMOcXvigJZaViQ==}
-    engines: {node: '>=12'}
-    dependencies:
-      '@jridgewell/sourcemap-codec': 1.4.15
-    dev: true
-
   /ms@2.1.2:
     resolution: {integrity: sha512-sGkPx+VjMtmA6MX27oA4FBFELFCZZ4S4XqeGOXCv68tT+jb3vk/RyaKWP0PTKyWtmLSM0b+adUTEvbs1PEaH2w==}
     dev: true
@@ -867,8 +859,8 @@ packages:
     hasBin: true
     dev: true
 
-  /sonner@0.3.1(react-dom@18.2.0)(react@18.2.0):
-    resolution: {integrity: sha512-3gFPA7BmMZmsphNBD0CM1UfBZeAfdcOF7bH04M0kKWgxg5NMwX29m7EoKFJoPLwR9vS3qF4oVzNpq6j0w9gYBQ==}
+  /sonner@0.3.2(react-dom@18.2.0)(react@18.2.0):
+    resolution: {integrity: sha512-pGT5AI2rPegCesw/Im9xkDgurxAsuJBSH7Z9/+Oeszq5AKorC5YdlieMhwDr+jex+qQCIFA2nAjXsTX/u6aS9A==}
     peerDependencies:
       react: ^18.0.0
       react-dom: ^18.0.0
@@ -928,8 +920,8 @@ packages:
       react: 18.2.0
     dev: false
 
-  /vite@4.3.0-beta.8:
-    resolution: {integrity: sha512-dCYroE9jtHgjaZV9+ZINUNBZQg59JTDSmpWWldHO3X22P2RWrpTPQN57Kjv+WAA2WVRiXxyTXzQat+y0kJAy9g==}
+  /vite@4.3.1:
+    resolution: {integrity: sha512-EPmfPLAI79Z/RofuMvkIS0Yr091T2ReUoXQqc5ppBX/sjFRhHKiPPF/R46cTdoci/XgeQpB23diiJxq5w30vdg==}
     engines: {node: ^14.18.0 || >=16.0.0}
     hasBin: true
     peerDependencies:
