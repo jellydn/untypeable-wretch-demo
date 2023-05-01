@@ -5,8 +5,8 @@ dependencies:
     specifier: 1.3.0
     version: 1.3.0
   '@preact/signals-react':
-    specifier: 1.3.1
-    version: 1.3.1(react@18.2.0)
+    specifier: 1.3.2
+    version: 1.3.2(react@18.2.0)
   react:
     specifier: 18.2.0
     version: 18.2.0
@@ -553,8 +553,8 @@ packages:
     resolution: {integrity: sha512-M+M3ZOtd1dtV/uasyk4SZu1vbfEJ4NeENv0F7F12nijZYedB5wSgbtZcuACyssnTznhF4ctUyrR0dZHuHfyWKA==}
     dev: false
 
-  /@preact/signals-react@1.3.1(react@18.2.0):
-    resolution: {integrity: sha512-YHWoGAT2Mmv2OGlGx7CCCbaLjAH/InV9ytGAR+esX8Y0HJmMAw51QlqGYOD5GPA5LwimV7Ht1x7KEIegDZIoxg==}
+  /@preact/signals-react@1.3.2(react@18.2.0):
+    resolution: {integrity: sha512-IjMUjjMMVI/hKa5jnS79rUmOAF4o+fUFjDrU/xHbE8a+Bv0n1svybWD/L31DRSMgGy5kyu5R77CWWaIg1pYy3Q==}
     peerDependencies:
       react: ^16.14.0 || 17.x || 18.x
     dependencies:
