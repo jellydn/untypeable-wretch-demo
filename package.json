@@ -15,7 +15,7 @@
     "react-dom": "18.2.0",
     "sonner": "0.5.0",
     "untypeable": "0.2.1",
-    "wretch": "2.5.2",
+    "wretch": "2.6.0",
     "zod": "3.21.4"
   },
   "devDependencies": {
