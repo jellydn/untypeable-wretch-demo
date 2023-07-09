@@ -18,8 +18,8 @@ dependencies:
     specifier: 18.2.0
     version: 18.2.0(react@18.2.0)
   sonner:
-    specifier: 0.5.0
-    version: 0.5.0(react-dom@18.2.0)(react@18.2.0)
+    specifier: 0.6.0
+    version: 0.6.0(react-dom@18.2.0)(react@18.2.0)
   untypeable:
     specifier: 0.2.1
     version: 0.2.1
@@ -866,8 +866,8 @@ packages:
     hasBin: true
     dev: true
 
-  /sonner@0.5.0(react-dom@18.2.0)(react@18.2.0):
-    resolution: {integrity: sha512-V5L4918wScYxpe3x1H92MV0vSkUqRREu8dwFf7dDTQmRMQ58r1vzSKCsULZ5HCTqxNkfCdhQXHf7rRMaj/MukQ==}
+  /sonner@0.6.0(react-dom@18.2.0)(react@18.2.0):
+    resolution: {integrity: sha512-+nqKkUDjSv6P+067RRpGxNEjfKgpAP0LVHW6Z6FpwXvmPpxRVQTo27uSX3+Glt8nPXMOUbmv1QCgcKkhLz/gBg==}
     peerDependencies:
       react: ^18.0.0
       react-dom: ^18.0.0
