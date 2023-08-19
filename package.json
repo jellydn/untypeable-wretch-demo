@@ -16,7 +16,7 @@
     "sonner": "0.6.2",
     "untypeable": "0.2.1",
     "wretch": "2.6.0",
-    "zod": "3.22.1"
+    "zod": "3.22.2"
   },
   "devDependencies": {
     "@total-typescript/ts-reset": "0.5.1",
