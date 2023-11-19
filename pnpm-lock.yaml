@@ -24,8 +24,8 @@ dependencies:
     specifier: 0.2.1
     version: 0.2.1
   wretch:
-    specifier: 2.7.0
-    version: 2.7.0
+    specifier: 2.7.1
+    version: 2.7.1
   zod:
     specifier: 3.22.4
     version: 3.22.4
@@ -984,8 +984,8 @@ packages:
       fsevents: 2.3.3
     dev: true
 
-  /wretch@2.7.0:
-    resolution: {integrity: sha512-IOjqi9SlQ8FEWp1X3KJ74wLNqpDVBoJIJvC7ZDHxPhzriNJd84+7RAhFBTl2sHiqnzBhzfqs1sznaB0Ik/3Ngw==}
+  /wretch@2.7.1:
+    resolution: {integrity: sha512-laTmSy1T9lBaB8jwrF71S44xfoQhXxbXhpWFY3L7Yl51S62luuR69oRvDHmVVf1B62eWTcCnJVa0s4pWStuRCw==}
     engines: {node: '>=14'}
     dev: false
 
