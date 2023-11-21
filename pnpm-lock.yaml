@@ -18,8 +18,8 @@ dependencies:
     specifier: 18.2.0
     version: 18.2.0(react@18.2.0)
   sonner:
-    specifier: 1.2.0
-    version: 1.2.0(react-dom@18.2.0)(react@18.2.0)
+    specifier: 1.2.1
+    version: 1.2.1(react-dom@18.2.0)(react@18.2.0)
   untypeable:
     specifier: 0.2.1
     version: 0.2.1
@@ -38,11 +38,11 @@ devDependencies:
     specifier: 4.3.0
     version: 4.3.0(prettier@3.1.0)
   '@types/react':
-    specifier: 18.2.37
-    version: 18.2.37
+    specifier: 18.2.38
+    version: 18.2.38
   '@types/react-dom':
-    specifier: 18.2.15
-    version: 18.2.15
+    specifier: 18.2.16
+    version: 18.2.16
   '@vitejs/plugin-react':
     specifier: 4.2.0
     version: 4.2.0(vite@4.5.0)
@@ -616,14 +616,14 @@ packages:
     resolution: {integrity: sha512-mxSnDQxPqsZxmeShFH+uwQ4kO4gcJcGahjjMFeLbKE95IAZiiZyiEepGZjtXJ7hN/yfu0bu9xN2ajcU0JcxX6A==}
     dev: true
 
-  /@types/react-dom@18.2.15:
-    resolution: {integrity: sha512-HWMdW+7r7MR5+PZqJF6YFNSCtjz1T0dsvo/f1BV6HkV+6erD/nA7wd9NM00KVG83zf2nJ7uATPO9ttdIPvi3gg==}
+  /@types/react-dom@18.2.16:
+    resolution: {integrity: sha512-766c37araZ9vxtYs25gvY2wNdFWsT2ZiUvOd0zMhTaoGj6B911N8CKQWgXXJoPMLF3J82thpRqQA7Rf3rBwyJw==}
     dependencies:
-      '@types/react': 18.2.37
+      '@types/react': 18.2.38
     dev: true
 
-  /@types/react@18.2.37:
-    resolution: {integrity: sha512-RGAYMi2bhRgEXT3f4B92WTohopH6bIXw05FuGlmJEnv/omEn190+QYEIYxIAuIBdKgboYYdVved2p1AxZVQnaw==}
+  /@types/react@18.2.38:
+    resolution: {integrity: sha512-cBBXHzuPtQK6wNthuVMV6IjHAFkdl/FOPFIlkd81/Cd1+IqkHu/A+w4g43kaQQoYHik/ruaQBDL72HyCy1vuMw==}
     dependencies:
       '@types/prop-types': 15.7.10
       '@types/scheduler': 0.16.6
@@ -888,8 +888,8 @@ packages:
     hasBin: true
     dev: true
 
-  /sonner@1.2.0(react-dom@18.2.0)(react@18.2.0):
-    resolution: {integrity: sha512-4bIPKrhF+Z4yEC4EZvNBswcVzMrUhztOQXqyIoiZqiqN1TT39FeK+TgRsQidvvztnYgOn4+S3LdAsri61c7ATA==}
+  /sonner@1.2.1(react-dom@18.2.0)(react@18.2.0):
+    resolution: {integrity: sha512-YTW7SCURez/+jTUkgIIIbsbcz6YRVTO4hs5QGlPygEVDUs/pK6Yn52OADpzucF4aDWVZuY6zo9L5GIvAfBqqOw==}
     peerDependencies:
       react: ^18.0.0
       react-dom: ^18.0.0
