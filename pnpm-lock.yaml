@@ -27,8 +27,8 @@ importers:
         specifier: 0.2.1
         version: 0.2.1
       wretch:
-        specifier: 2.8.1
-        version: 2.8.1
+        specifier: 2.9.0
+        version: 2.9.0
       zod:
         specifier: 3.23.8
         version: 3.23.8
@@ -38,7 +38,7 @@ importers:
         version: 0.5.1
       '@trivago/prettier-plugin-sort-imports':
         specifier: 4.3.0
-        version: 4.3.0(prettier@3.2.5)
+        version: 4.3.0(prettier@3.3.0)
       '@types/react':
         specifier: 18.3.3
         version: 18.3.3
@@ -49,8 +49,8 @@ importers:
         specifier: 4.3.0
         version: 4.3.0(vite@5.2.12)
       prettier:
-        specifier: 3.2.5
-        version: 3.2.5
+        specifier: 3.3.0
+        version: 3.3.0
       typescript:
         specifier: 5.4.5
         version: 5.4.5
@@ -579,8 +579,8 @@ packages:
     resolution: {integrity: sha512-Wglpdk03BSfXkHoQa3b/oulrotAkwrlLDRSOb9D0bN86FdRyE9lppSp33aHNPgBa0JKCoB+drFLZkQoRRYae5A==}
     engines: {node: ^10 || ^12 || >=14}
 
-  prettier@3.2.5:
-    resolution: {integrity: sha512-3/GWa9aOC0YeD7LUfvOG2NiDyhOWRvt1k+rcKhOuYnMY24iiCphgneUfJDyFXd6rZCAnuLBv6UeAULtrhT/F4A==}
+  prettier@3.3.0:
+    resolution: {integrity: sha512-J9odKxERhCQ10OC2yb93583f6UnYutOeiV5i0zEDS7UGTdUt0u+y8erxl3lBKvwo/JHyyoEdXjwp4dke9oyZ/g==}
     engines: {node: '>=14'}
     hasBin: true
 
@@ -678,8 +678,8 @@ packages:
       terser:
         optional: true
 
-  wretch@2.8.1:
-    resolution: {integrity: sha512-as9Mta8Nrnu6mL9ApNvmKGWqZtvoQtOILEfjox1BYYBYyUSKUdATVEAlQIMGLSZyzRfNbpUvPKDcGJTGA1b5LA==}
+  wretch@2.9.0:
+    resolution: {integrity: sha512-kKp1xWQO+Vh9I6RJq7Yers2KKrmF7LXB00c9knMDn3IdB7etcQOarrsHArpj1sZ1Dlav8ss6R1DuUpDSTqmQew==}
     engines: {node: '>=14'}
 
   yallist@3.1.1:
@@ -1000,7 +1000,7 @@ snapshots:
 
   '@total-typescript/ts-reset@0.5.1': {}
 
-  '@trivago/prettier-plugin-sort-imports@4.3.0(prettier@3.2.5)':
+  '@trivago/prettier-plugin-sort-imports@4.3.0(prettier@3.3.0)':
     dependencies:
       '@babel/generator': 7.17.7
       '@babel/parser': 7.24.6
@@ -1008,7 +1008,7 @@ snapshots:
       '@babel/types': 7.17.0
       javascript-natural-sort: 0.7.1
       lodash: 4.17.21
-      prettier: 3.2.5
+      prettier: 3.3.0
     transitivePeerDependencies:
       - supports-color
 
@@ -1163,7 +1163,7 @@ snapshots:
       picocolors: 1.0.1
       source-map-js: 1.2.0
 
-  prettier@3.2.5: {}
+  prettier@3.3.0: {}
 
   react-dom@18.3.1(react@18.3.1):
     dependencies:
@@ -1242,7 +1242,7 @@ snapshots:
     optionalDependencies:
       fsevents: 2.3.3
 
-  wretch@2.8.1: {}
+  wretch@2.9.0: {}
 
   yallist@3.1.1: {}
 
