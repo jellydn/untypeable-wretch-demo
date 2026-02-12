@@ -30,8 +30,8 @@ importers:
         specifier: 2.11.1
         version: 2.11.1
       zod:
-        specifier: 3.25.76
-        version: 3.25.76
+        specifier: 4.3.6
+        version: 4.3.6
     devDependencies:
       '@total-typescript/ts-reset':
         specifier: 0.6.1
@@ -724,8 +724,8 @@ packages:
   yallist@3.1.1:
     resolution: {integrity: sha512-a4UGQaWPH59mOXUYnAG2ewncQS4i4F43Tv3JoAM+s2VDAmS9NsK8GpDMLrCHPksFT7h3K6TOoUNn2pb7RoXx4g==}
 
-  zod@3.25.76:
-    resolution: {integrity: sha512-gzUt/qt81nXsFGKIFcC3YnfEAx5NkunCfnDlvuBSSFS02bcXu4Lmea0AFIUwbLWxWPx3d9p8S5QoaujKcNQxcQ==}
+  zod@4.3.6:
+    resolution: {integrity: sha512-rftlrkhHZOcjDwkGlnUtZZkvaPHCsDATp4pGpuOOMDaTdDDXF91wuVDJoWoPsKX/3YPQ5fHuF3STjcYyKr+Qhg==}
 
 snapshots:
 
@@ -1296,4 +1296,4 @@ snapshots:
 
   yallist@3.1.1: {}
 
-  zod@3.25.76: {}
+  zod@4.3.6: {}
