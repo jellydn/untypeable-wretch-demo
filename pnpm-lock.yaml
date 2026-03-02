@@ -27,8 +27,8 @@ importers:
         specifier: 0.2.1
         version: 0.2.1
       wretch:
-        specifier: 2.11.1
-        version: 2.11.1
+        specifier: 3.0.6
+        version: 3.0.6
       zod:
         specifier: 3.25.76
         version: 3.25.76
@@ -718,9 +718,9 @@ packages:
       terser:
         optional: true
 
-  wretch@2.11.1:
-    resolution: {integrity: sha512-rJejp30zE8Igs4Mvo4pxXaiOKdSIGYLxyVaY+jZTlAMfQyi/hZsDwMRa9R09N0iS9Q8cLvplKfHwwyBv6XRWsg==}
-    engines: {node: '>=14'}
+  wretch@3.0.6:
+    resolution: {integrity: sha512-qshuQ0s5973Mu9mL5PG6QYG/bD0jihX9bovq7jgGE8r6ndH+JPOzzxihh/gaanKKsrFvvIdZ+KN4BoFyTj4PWg==}
+    engines: {node: '>=22'}
 
   yallist@3.1.1:
     resolution: {integrity: sha512-a4UGQaWPH59mOXUYnAG2ewncQS4i4F43Tv3JoAM+s2VDAmS9NsK8GpDMLrCHPksFT7h3K6TOoUNn2pb7RoXx4g==}
@@ -1293,7 +1293,7 @@ snapshots:
     optionalDependencies:
       fsevents: 2.3.3
 
-  wretch@2.11.1: {}
+  wretch@3.0.6: {}
 
   yallist@3.1.1: {}
 
